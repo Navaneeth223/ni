@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-color: aliceblue;
+    font-family: 'Sigmar One', cursive;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    background-color: aliceblue;
+    border-color: rgb(235, 139, 14);
+    border-top-width: 5px;
+    width: 5%;
+}
+
+h1 {
+    color: #66BFBF;
+    margin-top: 10%;
+    margin: 0 auto 0 auto;
+    line-height: 2em;
+}
+
+h2 {
+    color: #11BFBF;
+    margin-top: 0;
+    margin: 20px;
+    font-weight: normal;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+table {
+    position: relative;
+    left: 35%;
+}
+
+.still {
+    border-style: solid;
+    border-left-color: lavender;
+    border-right-color: lavenderblush;
+    border-bottom-color: black;
+    border-top-color: cornsilk;
+    width: auto;
+}
+
+.top-container {
+    height: auto;
+    width: auto;
+    background-color: wheat;
+}
+
+.middle-container {
+    background-color: seashell;
+    border-width: 20%;
+    height: auto;
+    position: relative;
+    width: 50%;
+    left: 25%;
+}
+
+.bottom-container {
+    background-color: rgb(134, 131, 131);
+    height: auto;
+}
+
+img:hover {
+    background-color: goldenrod;
+    border-radius: 10%;
+}
+
+span {
+    font-size: xx-large;
+}
+
+.font {
+    font-family: 'Lobster', cursive;
+}
+
+.demo {
+    border-top: 100px solid bisque;
+    height: 300px;
+}
+
+@keyframes grow {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 40px;
+    }
+}
+
+.demo:hover .grows {
+    animation-name: grow;
+    animation-duration: 3s;
+}
+
+.demo:hover .growsandstays {
+    animation-name: grow;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.box {
+    background-color: #11BFBF;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    animation-name: rotate;
+    animation-duration: 15s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.new {
+    height: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwOfWRDRbHXy1eaT9UuSvnPseWnt2UBjPQKw&usqp=CAU");
+    border-radius: 10%;
+    background-color: antiquewhite;
+}
